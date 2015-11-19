@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  squared = Array.new
+  array.each {|num| squared << num**2 }
+  squared
 end
+
+# def square_array_collect(array)
+#   array.collect {|num| num**2}
+# end
