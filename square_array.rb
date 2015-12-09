@@ -13,12 +13,16 @@
 # end
 
 
+# def square_array(array)
+
+#   array.collect do |number|
+#     number * number
+#   end
+# end
+
 def square_array(array)
-
-  array.each do |number|
-    squared_nums << (number * number)
+  array.collect do |number|
+    number * number
   end
-  squared_nums
 end
-
 
