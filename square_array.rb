@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  collection = []
+  array.each do |square|
+    collection.push(square * square)
+  end
+  return collection
 end
