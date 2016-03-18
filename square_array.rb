@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
-  index = 0
-  array.each do |item|
-    array[index] = item ** 2
-    index += 1
+  output_array = []
+  array.each do |element|
+    output_array << element ** 2
   end
+  output_array
 end
