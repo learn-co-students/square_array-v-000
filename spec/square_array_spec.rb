@@ -9,7 +9,7 @@ describe '#square_array' do
   end
 
   it 'calls on each' do
-    numbers = [1,2,3]
+    numbers = [1,4,]
     expect(numbers).to receive(:each)
     square_array(numbers)
   end
