@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  new_array = []
+
+  array.each do |number|
+    temp = number * number
+    new_array << temp
+  end
+
+  new_array
 end
