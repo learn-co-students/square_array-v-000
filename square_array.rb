@@ -1,8 +1,9 @@
 def square_array(array)
   # your code here
-  arrIndex=0
+  sqrArr= Array.new
   array.each do |element|
-    array[arrIndex]=element**2
-    arrIndex++
+    element **= 2;
+    sqrArr << element
   end
+  return sqrArr
 end
