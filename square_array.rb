@@ -1,5 +1,3 @@
-def square_array(array)
-  result = [] 
-  array.each {|el| result << el * el }
-  result 
+def square_array(array) 
+  array.collect {|el| el = el*el}
 end
