@@ -1,7 +1,5 @@
-def square_array(array)
-  # your code here
-  doubles = []
-  array.each { |x| doubles.push x*x }
-  doubles = array.collect! { |x| x*x }
-  doubles
+def square_array(numbers)
+  array_dbl = []
+  numbers.each {|number| array_dbl << number * number}
+  array_dbl
 end
