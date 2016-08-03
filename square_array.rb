@@ -1,3 +1,8 @@
+counter=0
 def square_array(array)
-  # your code here
+   array.each do |element|
+   array << element**2
+   array.delete_at(counter+1)
+  end
+  counter+=1
 end
