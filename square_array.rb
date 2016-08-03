@@ -1,8 +1,7 @@
 def square_array(array)
-  counter=0
+  new_array=[]
   array.each do |element|
-  array.unshift(element**2)
-  array.delete_at(counter+1)
+  new_array.push(element**2)
   end
-  counter+=1
+  return new_array
 end
