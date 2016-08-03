@@ -1,4 +1,5 @@
 counter=0
+
 def square_array(array)
    array.each do |element|
    array << element**2
