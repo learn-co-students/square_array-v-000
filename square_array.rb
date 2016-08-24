@@ -7,3 +7,10 @@ def square_array(numbers)
   end
   new_array
 end
+
+def square_array_collect(numbers)
+  new_array = []
+  numbers.collect! do |squared|
+    squared ** 2
+  end
+end
