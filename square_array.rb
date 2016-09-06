@@ -9,7 +9,7 @@
    return outArr
   end
 
-#square_array(array)
+#using collect
 
 def square_array_2(array)
     array.collect{|num| num**2}
