@@ -1,3 +1,14 @@
 def square_array(array)
-  # your code here
+  new_array = []
+  array.each do |item|
+    new_array << (item**2)
+  end
+  new_array
 end
+
+
+##METHOD USING ADVANCED .COLLECT ITERATOR
+#
+#def square_array_adv(array)
+#    array.collect! { |item| item**2}
+#  end
