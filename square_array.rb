@@ -1,3 +1,15 @@
 def square_array(array)
-  # your code here
+   new_array = Array.new
+
+    array.each do |widget|
+      new_array.push (widget * widget)
+
+    end
+
+
+
+return new_array
+
+
+  
 end
