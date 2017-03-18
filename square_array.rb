@@ -1,11 +1,16 @@
+# using #map method
+def square_array
+  array.map! { |x| x ** 2}
+  return array
+end
+
+=begin
 def square_array(array)
   new_array = []
   array.each {|x| new_array << x ** 2}
   new_array
 end
 
-
-=begin
 Before REFACTORING
 def square_array(array)
   new_array = []
@@ -13,6 +18,6 @@ def square_array(array)
     x = x ** 2
     new_array << x
   end
-   return new_array
+  return new_array
 end
 =end
