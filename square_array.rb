@@ -1,3 +1,11 @@
+
+
+
 def square_array(array)
-  # your code here
-end
+  new_array = []
+  array.each do |numbers|
+      new_numbers = numbers * numbers
+      new_array << new_numbers
+    end
+      return new_array
+  end
