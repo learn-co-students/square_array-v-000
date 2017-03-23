@@ -5,6 +5,6 @@ def square_array(array)
   array.each{|num| square_array<<num**2}
   square_array
   #squares with collect method
-  array.collect!{|num|num**2}
+  #square_array = array.collect { |num| num**2}
 
 end
