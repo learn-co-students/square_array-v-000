@@ -7,6 +7,7 @@ def square_array(array)
   return new_array
 end
 
+# Suggested advanced exercise for iterating over array
 def square_array_with_collect(array)
   array.collect! {|num| num**2}
 end
