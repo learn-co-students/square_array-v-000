@@ -1,5 +1,5 @@
 def square_array(array)
-    array.each_with_index do |e,i|
-      array[i] = e*e
+    array.collect do |e,i|
+      e=e*e
     end
 end
