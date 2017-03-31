@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  new_squares = []
+  array.each do |var|
+    var**2
+    new_squares << var**2
+  end
+  new_squares
 end
