@@ -1,3 +1,6 @@
+#   ~~~HAVICK WAS HERE~~~
 def square_array(array)
-  # your code here
+newArray = []
+array.each {|num| newArray << num **2}
+newArray
 end
