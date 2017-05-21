@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+  array.each_with_index {|element, i| array[i] = (element*element) }
 end
