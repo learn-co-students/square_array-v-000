@@ -6,3 +6,4 @@ def square_array(array)
   end
   return new_array
 end
+#trying to submit
