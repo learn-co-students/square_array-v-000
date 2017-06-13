@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  res = []
+  array.each{|num| res.push(num**2)}
+  return res
 end
+
+#def square_array(array)
+  #array.collect{|num| num**2}
+#end
