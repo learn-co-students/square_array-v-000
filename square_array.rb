@@ -1,3 +1,6 @@
 def square_array(array)
   # your code here
-end
+  squared = []
+  array.each{|figure| squared.push figure ** 2}
+  squared
+  end
