@@ -6,3 +6,8 @@ def square_array(array)
   end
   new_array
 end
+
+# could also do with collect:
+#def square_array(array)
+#  array.collect{|number| number*number}
+#end
