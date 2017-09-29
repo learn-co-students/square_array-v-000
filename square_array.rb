@@ -4,5 +4,5 @@ def square_array(array)
     numbers << x*x
 end
 
-new_array
+return numbers
 end
