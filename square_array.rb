@@ -7,3 +7,9 @@ def square_array(array)
   end
   squared_array
 end
+
+def square_array_collect(array)
+  array.collect do |el|
+    el**2
+  end
+end
