@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  squares = []
+  array.each {|num| squares.push(num**2)}
+  squares
 end
