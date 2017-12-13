@@ -1,8 +1,4 @@
-#Lesson
-def square_array(array)
-  new = []
-  array.each do |i|
-    new << i * i
-  end
-  new
+# Refactored
+def square_array(arr)
+  arr.map { |i| i * i }
 end
