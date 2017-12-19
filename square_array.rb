@@ -1,3 +1,7 @@
+require "pry"
+
 def square_array(array)
-  # your code here
+  newarray =[]
+  array.each{ |numbers| newarray.push(numbers ** 2) }
+  newarray
 end
