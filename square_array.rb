@@ -1,3 +1,10 @@
-def square_array(array)
-  # your code here
+require 'pry'
+def square_array(numbers)
+  new_numbers = []
+  numbers.each do |square|
+
+    new_numbers.push(square *= square)
+
+  end
+  new_numbers
 end
