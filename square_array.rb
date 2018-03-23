@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+  array.each {|square|}
+  Array.new(array.size) {|square| array[square]**2} 
+    
 end
+
+
+
+
+
+
