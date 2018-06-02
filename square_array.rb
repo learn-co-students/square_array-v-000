@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  solution = [];
+  array.each { |x| solution.push(x*x)}
+  #puts array.collect {|x| x*x};
+  return solution;
 end
