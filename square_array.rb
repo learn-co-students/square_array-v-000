@@ -1,4 +1,4 @@
-
+#The purpose of this lab is to create a function that returns squared numbers to an empty array by using the each method.
 def square_array(numbers)
     squared_numbers = []
     numbers.each do|num|
