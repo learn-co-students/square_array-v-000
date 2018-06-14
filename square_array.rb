@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  array.each do |x|
+    array.delete(x)
+    array.unshift(x**2)
+  end
+    array.reverse
 end
