@@ -3,3 +3,7 @@ def square_array(array)
   array.each{|value| new_array << value * value}
   new_array
 end
+
+def squared_array(array)
+  array.map{|value| value * value}
+end
