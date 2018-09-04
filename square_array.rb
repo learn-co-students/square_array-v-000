@@ -1,5 +1,9 @@
-numbers = [1, 2, 3]
+def square_array(array)
+  new_array = []
 
-def square_array(numbers)
-  numbers.each{ |number| ** 2}
+  array.each do |num|
+    new_array << num**2
+  end
+
+  new_array
 end
