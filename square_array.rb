@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+
+  arr = []
+  i = 0
+  array.each do |num|
+    arr[i] = num * num
+    i +=  1
+  end
+  arr
 end
