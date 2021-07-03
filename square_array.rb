@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  math_array = []
+  array.each { |x| math_array << x ** 2 }
+  math_array
 end
