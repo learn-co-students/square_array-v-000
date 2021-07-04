@@ -9,7 +9,7 @@
 
 You will build a method, `square_array`, that squares each element in an array of numbers and returns a new array of these squared numbers. Use an iterator and implement your own logic, *don't* use any built-in array methods other than `.each` (e.g. `.collect`, `.inject`).
 
-A couple of questions that you can ask yourself are: 
+A couple of questions that you can ask yourself are:
 
 * What is the return value of calling `.each` on an array?
 * How can I operate on each element of an array and also collect or store those elements?
@@ -38,3 +38,6 @@ square_array(new_numbers)
 * [Ruby Docs](http://www.ruby-doc.org/core-2.1.2/) - [Each Method](https://ruby-doc.org/core-2.6.3/Array.html#method-i-each)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/square_array' title='Square Array'>Square Array</a> on Learn.co and start learning to code for free.</p>
+
+
+array.collect {|element| element*element}
