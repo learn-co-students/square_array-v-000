@@ -1,3 +1,10 @@
+require 'pry'
+
 def square_array(array)
-  # your code here
+  newArr = []
+  array.each do | element |
+    element = element ** 2
+    newArr.push(element)
+  end
+  newArr
 end
