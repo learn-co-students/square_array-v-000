@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+  squared = []
+
+  array.each do |elem|
+    elem = elem * elem
+    squared.push(elem)
+  end
+
+  return squared
 end
+square_array([2, 4, 6])     # => [4, 16, 36]
