@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+  array.each_with_object([]) {|n, a| a<<n**2}
 end
