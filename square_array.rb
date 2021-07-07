@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  q = []
+  array.each do |n|
+    n *= n
+    q<<n
+  end 
+  return q
 end
