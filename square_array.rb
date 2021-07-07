@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  #  array.each_with_index {|element, i| array[i] = (element*element) }
+  squared = []
+  array.each {|element| squared << element*element}
+  squared
 end
