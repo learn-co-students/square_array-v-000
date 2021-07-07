@@ -1,3 +1,9 @@
+require "pry"
+
 def square_array(array)
-  # your code here
+  num = []
+  array.each do |number|
+  num.push(number * number)
+  end
+  num
 end
