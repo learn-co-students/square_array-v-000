@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  squared = Array.new
+  array.collect { |value| value ** 2}
+  return squared
 end
